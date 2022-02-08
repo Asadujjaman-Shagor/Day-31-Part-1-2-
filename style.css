@@ -1,0 +1,205 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* header section */
+.logo-image{
+    width: 50px;
+}
+.logo-txt{
+    font-weight: 500;
+    font-size: 27px;
+}
+/* Banner section */
+.banner-section{
+    background: url(./Image/asset\ 8.jpeg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.banner-section h1{
+    font-weight: 500;
+}
+.banner-section .btn{
+    padding: 15px 80px;
+    font-weight: 700;
+    background-color: #5ba533;
+    color: #fff;
+    transition: .5s;
+}
+.banner-section .btn:hover{
+    background-color: #fff;
+    color: #6278df;
+}
+.banner-section .form-control{
+    padding: 15px;
+}
+/* Number coumter section */
+.number-counter h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+/* About section  */
+.about-section{
+    background-color: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead{
+    line-height: 2.7rem;
+}
+/* Feature section */
+.feature-section{}
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+.right-img-sec{
+    width: 60%;
+    padding: 25px;
+}
+
+/* Protfolio section */
+.protfolio-item{}
+.protfolio-item a{
+    position: relative;
+    display: block;
+}
+.protfolio-item a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #6279df91;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.protfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Pricing Table section */
+.pricing-section{
+    background-color: #f7f9ff;
+}
+.p-heading h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    border-radius: 5px;
+}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.pricing-item ul li{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.pricing-item ul li span{
+    color: #7386e2;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+.pricing-item-button{}
+.pricing-item-button a{
+    border-color: #7386e2;
+    border-width: 2px;
+    color: #7386e2;
+    padding: 14px 30px;
+    font-size: 23px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+
+/* testimonial section */
+.author-info {
+    width: 220px;
+    margin: auto;
+}
+.author-info img {
+    width: 85px;
+    margin-right: 15px;
+}
+.user-detials{
+    position: relative;
+    top: 10px;
+    text-align: left;
+}
+.testimonial-icon {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 175px;
+    opacity: .06;
+}
+
+/* about section */
+.about-section{
+    background-color: #f7f9ff;
+}
+.about-item{
+    margin-top: 90px;
+}
+.about-item .card img {
+    width: 130px;
+    height: auto;
+    margin-top: -65px;
+    margin-left: 5px;
+}
+
+/* App section */
+.app-btn .apple {
+    position: relative;
+    left: 65px;
+}
+.app-btn .androwed {
+    position: relative;
+    right: 65px;
+}
+.app-btn .androwed a:hover{
+    background-color: #000;
+}
+
+/* footer section */
+footer{
+    background-color: #f7f9ff;
+}
